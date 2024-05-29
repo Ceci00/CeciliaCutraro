@@ -1,0 +1,125 @@
+body {
+    /* Establecer la imagen de fondo y ajustar el tamaño */
+    background: url('assets/img/Fondo.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* propiedades fondo */
+
+.img-fluid {
+    opacity: 0.6;
+}
+
+
+/* propiedades barra de navegación */
+
+.t-Logo{
+    color: rgb(116, 95, 30);
+    font-size: 50%;
+}
+
+a.nav-link {
+    border-radius: 5px;
+}
+
+.t-item1{
+    color: rgb(166, 53, 100)!important;
+}
+.t-item2{
+    color: rgb(188, 186, 169)!important
+}
+.t-item3{
+    color: rgb(49, 133, 160)!important;
+}
+.t-item5{
+    color: rgb(184, 74, 53)!important;
+}
+.t-item6{
+    color: rgb(104, 199, 219)!important;
+}
+
+.shadow-hover {
+    transition: filter 0.3s,background-color 0.3s;
+}
+  
+.shadow-hover:hover {
+    filter: brightness(95%);
+    background-color: rgb(238, 238, 238);
+}
+
+/* propiedades portada */
+
+.portada {
+    background: url('assets/img/inicio/titulo.jpeg') center center;
+    background-size: cover;
+    height: 105vh;
+}
+
+.titulo {
+    letter-spacing: 0.09em;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    font-size: 300%;
+}
+
+
+/* propiedades producciones */
+
+#piezas1 {
+    background: url('assets/img/produccion/vajilla.jpg') center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+}
+#piezas2 {
+    background: url('assets/img/produccion/raku.jpg') center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+}
+#piezas3 {
+    background: url('assets/img/produccion/esculturas.png') center center;
+    background-size: cover;
+    color: black;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+#piezas4 {
+    background: url('assets/img/produccion/joyeria.jpg') center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+}
+
+.produccion {
+    height: 60vh;
+    text-align: center;
+    
+}
+
+        /* Estilo para el sombreado */
+.shadowProdu-hover {
+    transition: box-shadow 0.3s, filter 0.5s; /* Agregar transición suave */
+}
+  
+        /* Estilo para el sombreado al pasar el mouse */
+.shadowProdu-hover:hover {
+    filter: brightness(90%);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); /* Sombreado al pasar el mouse */
+}
+
+/* propiedades footer */
+
+.t-LogoFot{
+    color: rgb(116, 95, 30);
+    letter-spacing: 1px;
+}
+
+.t-pequeño {
+    color: rgb(116, 95, 30);
+    font-weight: 700;
+    font-family: "Century Gothic", sans-serif;
+}
+
+
+/* propiedades Produccion Paginas */
+
